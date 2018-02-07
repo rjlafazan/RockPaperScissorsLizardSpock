@@ -2,9 +2,12 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Loops</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <title>Rock Paper Scissors Lizard Spock</title>
 
     <style type="text/css">
       body {
@@ -12,21 +15,62 @@
       }
     </style>
 
-  </head>
-  <body>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="index.html">Ryan's Game Gallery</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://rjlafazan.github.io/Bootstrap-Portfolio/index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rjlafazan.github.io/Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rjlafazan.github.io/Bootstrap-Portfolio/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rjlafazan.github.io/Hangman-Game/hangman.html">Hangman</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="rpslS.html">Rock Paper Scissors</a>
+          </li>
+        </ul>
+      </div>  
+    </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-          <div class="jumbotron">
-            <h1>Rock Paper Scissors Lizard Spock</h1>
-            <h2 id="game">Choose r, p, s, l, or S to play</h2>
 
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Rock Paper Scissors Lizard Spock</h1>
+      <h2 id="game">Choose r, p, s, l, or S to play</h2>
+    </div>
+  </div>
 
-          </div>
+    <div class="container-fluid text-center bg-light connect-me">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn bg-light"><a href="https://github.com/rjlafazan"><img src="assets/images/github-128.png" class="profile rounded-circle" alt="GitHub" /></a></button>
+          <button type="button" class="btn bg-light"><a href="https://www.linkedin.com/in/ryan-lafazan-351b90a/"><img src="assets/images/linkedin-128.png" class="profile rounded-circle" alt="LinkedIn" /></a></button>
+          <button type="button" class="btn bg-light"><a href="https://stackoverflow.com/users/8755639/ryan-lafazan?tab=profile"><img src="assets/images/stackoverflow-128.png" class="profile rounded-circle" alt="Stack Overflow" /></a></button>
         </div>
       </div>
     </div>
+  </div><br>
+
+
+<footer class="container-fluid text-center bg-dark">
+  <div class="row">
+    <div class="col-sm-12">
+      <p>Copyright &copy; 2018 Ryan Lafazan</p>
+    </div>
+  </div>
+</footer>
 
       <script type="text/javascript">
     // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
