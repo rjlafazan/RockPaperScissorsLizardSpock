@@ -117,6 +117,8 @@
           wins++;
         } else if ((userGuess === "p") && (computerGuess === "S")) {
           wins++;
+        } else if ((userGuess === "S") && (computerGuess === "s")) {
+          wins++;
         } else if ((userGuess === "r") && (computerGuess === "l")) {
           losses++;
         } else if ((userGuess === "l") && (computerGuess === "S")) {
@@ -126,6 +128,8 @@
         } else if ((userGuess === "l") && (computerGuess === "p")) {
           losses++;
         } else if ((userGuess === "p") && (computerGuess === "S")) {
+          losses++;
+        } else if ((userGuess === "s") && (computerGuess === "S")) {
           losses++;
         } else if (userGuess === computerGuess) {
           ties++;
